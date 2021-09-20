@@ -1,0 +1,23 @@
+
+<!-------Destructing assignment is a syntax that makes it is possible
+   to unpack the values from arrays pr properties from object into 
+   distinct variables.
+-------------------->
+<script>
+    const myProgLang = ['js','php','c','python','java'];
+    //var top1 = myProgLang[0];
+  //  var top2 = myProgLang[1];
+  //  var  top = myProgLang[2];
+   // console.log("My fav prog lang is"+top1);
+    //es6 
+   // let [top1,top2,top3,top4,top5] =  myProgLang;
+   // console.log("my fav prog lang is"+top1);
+    // only take first and last value
+//console.log(myProgLang.length);
+  //  let[top1,,,,toplast] = myProgLang;
+  //  console.log(`My fav programming lang is ${top1} and my least fav is ${toplast}.`);
+   
+    let top1,top3;
+    [top1,,top3]=myProgLang;
+ console.log(`My fav programming lang is ${top1} and my least fav is ${top3}.`);
+</script>

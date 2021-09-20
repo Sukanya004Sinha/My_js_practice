@@ -1,0 +1,15 @@
+Ques 1. what is Es6?
+The Es6 is the sixth edition of the laguage and was released in june 2015. it was initially know as Ecmascript  6 it includes many new features  like classs modules, iterators,for/of loop , arrow functions,typed arrays,promises,arrow functions.
+Ques 2.what are the features of ES6?
+ans--> supports  the constants{ also known as "immutable variables} 
+arrow functions
+ Extended Parameter Handling
+ Template Literals and Extended Literals
+ Regular Expressions
+ DestructingAssignment
+ Modules,classes,Iterators,Generators
+ Object Properties
+ Support for Map/set/WeakMap/WeakSet
+ Meta -Progmming(Internationalization and localization).
+Ques3 - what is let an const and how is differ from var?
+when we declare any  variables using var, it was function scoped 

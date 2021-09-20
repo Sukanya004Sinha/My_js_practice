@@ -1,0 +1,13 @@
+///////*******HISTORY*************//////////
+in 1996 javascript was created
+In 1997 it was submitted to ECMA International for a standardization which resulted in ECMASCRIPT.
+In 2015 decided to switch to release ECMASCRIPT.
+////////////****************************/////////////////
+
+
+
+
+//// ******** Var Let and Const *********//////////
+variabes declared with "var" in JavaScript are function Scoped.
+variabes declared with "let & const" in JavaScript are block Scoped.
+

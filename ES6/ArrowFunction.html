@@ -1,0 +1,51 @@
+<!------ arrow function are also called fat arrow functions") are undoubtedly 
+    one of the most popular features of ES6
+They introduced a new  way of writing concise functions.
+
+<script>
+    //es5
+var sum = function(){
+    var a = 5;
+    var b= 10;
+    return a+b;
+}
+    console.log(sum());
+
+</script>
+---->
+<script>
+    //es6
+  /*  const sum =()=>{
+        let a= 5;
+        let b = 10;
+        return a+b;
+    }
+    console.log(sum());
+    */
+   /*let a = 10;
+   let b = 30;
+   const sum  =()=>{
+       a+b }
+       console.log(sum());
+       // if we don't write return function but if weuse a curly braces it gives undefined.
+   */
+   /*let a = 10;
+   let b = 80;
+   //const sum  =()=>{
+   //    return a+b}
+   
+       const sum  =()=> a+b 
+       console.log(sum());
+
+       // if we write a single line of code then we don't need to use curly braces and return function.
+    */
+   let a = 20;
+    const sum = (b)=>a+b
+    console.log(sum(15));
+
+
+
+
+    const sum1 = (c,d)=>c+d
+    console.log(sum1(15,60));
+       </script>

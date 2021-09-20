@@ -1,0 +1,30 @@
+<script>
+//Rest Parameter is an improves way to handle function Parameter , allowing us to more easily handle various input as Parameters in a function the rest Parameterssyntax allows us to represent an indefinite number of arguments as an array.
+//function sum(a,b){
+//    console.log(a+b);
+//}
+//sum(1,2,3,4,5,6);
+/*function sum(...inputs){ //if we write like this it gives an array of all the numbers that are stored in it.
+    console.log(...inputs); // it gives value 
+let total = 0;
+    for(let i of inputs){
+    total+=i;
+    }
+    console.log(total);
+
+}
+sum(1,2,3,4,5,6),7,8v ,9;
+*/
+function fun(a,b,...c){
+    console.log(`${a} ${b}`);
+    console.log(c);
+    console.log(c[0]);
+    console.log(c.length);
+    console.log(c.indexOf('Edan'));
+}
+
+fun('Ronaldo','Neymar','Pele','Messi','Edan')
+
+
+
+</script>

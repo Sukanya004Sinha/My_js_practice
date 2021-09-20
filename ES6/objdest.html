@@ -1,0 +1,23 @@
+<script>
+  const bioData = {
+      name:"sukanya",
+      age: 23,
+      deg: 'MCA',
+      hob:{
+        first:'studying',
+        sec: 'coding'
+      }
+  }  
+//let{name,age,deg}=bioData;
+/*let name ,age,deg;
+({name,age,deg}=bioData); // we also write like this as
+*/
+
+let{name:myname,age:ages,deg,hob}=bioData;   // if we want to change the name of variable we write like this
+
+console.log(`my name is ${myname}.`);
+console.log(`my age is ${ages}.`);
+  //console.log(`my name is ${name}.My age is ${age}.My highest qualification is ${deg}`);
+  console.log(`my name is ${myname}.My age is ${ages}.My highest qualification is ${deg}.I love ${hob.sec}`);
+
+</script>

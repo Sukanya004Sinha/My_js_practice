@@ -1,0 +1,88 @@
+<script>
+    //var name = "sukanya";
+    //  console.log(name);  
+
+    //*******************/////
+    // let name = "sukanya";
+    //console.log(name);
+    ///******************////////
+    // const pi = "22/7"
+    //console.log(pi);
+    //*************************///
+    //var name ="sukanya";
+    //name ="sinha";
+    //console.log(name);  // sinha will be printed in this case
+
+
+    /*let name ="sukanya";
+    name ="sinha";
+    console.log(name); //sinha will printed
+
+    // so we get let and const both are same ***/
+
+    /*
+    const name = "sukanya";
+    name = "sinha";  //  it gives error
+    console.log(name);
+   
+function modJs(momos){ //function socpe
+if(momos){ // block scope
+ var name ="sukanya";
+ var sname ="sinha";
+}
+console.log("my name is "+name +" "+sname);
+  // agar hm var keyword se kisi ko bhi declared krenge to wo function scope hota hai.  
+   }
+   modJs(true);
+/*function modJs(love){ //function socpe
+ if(const){ // block scope because curly braces is starting here and when curly braces are end that is a block scope
+let name ="sukanya";
+const sname ="sinha";
+console.log("my name is "+name +" "+sname);
+ }       
+console.log("my name is "+name +" "+sname);
+     // if we try to acess this it gives an error because we are trying to access it from outside also but its a block scope so it gives an error
+    }
+    
+    //
+    modJs(true);
+    */
+    //var whoWillWinToday = "India";   //  global scope
+    /*if(true){
+        var whoWillWinToday="NewZeland";   // print newZeland
+        console.log(whoWillWinToday);      // in both because of var keyword 
+    }
+    console.log(whoWillWinToday);
+    */
+    let whoWillWinToday = "India";
+    if (true) {
+        let whoWillWinToday = "NewZeland";
+        console.log(whoWillWinToday);   // print NewZeland and India 
+        // bcz both are diff vatriable like both are diff
+    }
+    console.log(whoWillWinToday);
+
+//**************************////
+let whoWillWinToday = "India";
+    if (true) {
+        let whoWillWinToday = "NewZeland";
+        console.log(whoWillWinToday);  
+
+        //  it prints New Zeland and India
+    }
+    console.log(whoWillWinToday);
+
+
+//     One of the biggest problems with declaring variables with the var keyword is that
+// you can overwrite variable declarations without an error.
+
+// var camper = 'James';
+// var camper = 'David';
+console.log(camper)
+
+
+
+</script> 
+
+
+
