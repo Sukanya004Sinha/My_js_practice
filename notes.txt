@@ -1,0 +1,10 @@
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+
+Data Types - 
+Six Data types  that are primitives,
+undefined : type of instance ==="boolean"
+Number : type of instance ==="number"
+String: type of instance ==="string"
+BigInt : type of instance === "bigint"
+symbol : type of instance === "symbol"
+
